@@ -2,52 +2,115 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(243, 239, 239);
+}
+
+.title{
+  margin: 40vh 0;
 }
 
 .timeline{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 50vw;
   height: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15vh;
+}
+
+.circle{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 10px solid red;
+  position: absolute;
+  background-color: black;
+  top: 104.3%;
+  left: 48%;
+}
+
+.circle1{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 10px solid rgb(255, 153, 0);
+  position: absolute;
+  background-color: black;
+  top: 179.2%;
+  left: 47.9%;
+}
+
+.recHorizontal{
+  position: absolute;
+  width: 15vw;
+  height: 4vh;
+  background-color: red;
+  border-radius: 20px;
+  top: 105%;
+  color: white;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-
-.vertical-line {
-  width: 1.2vw; 
-  height: 290vh; 
+.recHorizontal1{
+  position: absolute;
+  width: 15vw;
+  height: 4vh;
+  background-color: rgb(255, 153, 0);
+  border-radius: 20px;
+  top: 180%;
+  left: 34.8%;
+  color: white;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.color-block {
-  flex: 1; 
+.recVertical{
+  width: 1.3vw;
+  height: 70vh;
+  background-color: red;
+  border-radius: 20px 20px 0 0;
 }
 
-.color-block:nth-child(1) {
-  background-color: red; 
-  border-radius: 20px;
-}
-
-.color-block:nth-child(2) {
-  background-color: orange; 
-  border-radius: 20px;
-}
-
-.color-block:nth-child(3) {
-  background-color: rgb(34, 24, 227); 
-  border-radius: 20px;
-}
-
-.color-block:nth-child(4) {
-  background-color: rgb(28, 241, 42);
-  border-radius: 20px;
-}
-
-.color-block:nth-child(5) {
-  background-color: rgb(212, 29, 194); 
-  border-radius: 20px;
+.recVertical1{
+  width: 1.3vw;
+  height: 70vh;
+  background-color: rgb(255, 153, 0);
 }
 
 
+.projet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 25vw;
+  margin-right: 25vw;
+}
+
+.projet1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid rgb(255, 153, 0); */
+  width: 25vw;
+  margin-left: 22.45vw;
+}
+
+.txt {
+  width: 20vw;
+  height: 50vh;
+  /* border: 1px solid; */
+}
+
+.txt h1{
+  text-decoration: underline;
+}
