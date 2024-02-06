@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.timeline{
+  border: 1px solid black;
+  width: 50vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.vertical-line {
+  width: 1.2vw; 
+  height: 290vh; 
+  display: flex;
+  flex-direction: column;
 }
+
+.color-block {
+  flex: 1; 
+}
+
+.color-block:nth-child(1) {
+  background-color: red; 
+  border-radius: 20px;
+}
+
+.color-block:nth-child(2) {
+  background-color: orange; 
+  border-radius: 20px;
+}
+
+.color-block:nth-child(3) {
+  background-color: rgb(34, 24, 227); 
+  border-radius: 20px;
+}
+
+.color-block:nth-child(4) {
+  background-color: rgb(28, 241, 42);
+  border-radius: 20px;
+}
+
+.color-block:nth-child(5) {
+  background-color: rgb(212, 29, 194); 
+  border-radius: 20px;
+}
+
+
