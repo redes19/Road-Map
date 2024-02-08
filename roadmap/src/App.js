@@ -4,6 +4,7 @@ import "./App.css";
 import Title from "./Component/Title.jsx";
 import Quizzeo from "./Component/Quizzeo.jsx";
 import Pokedex from "./Component/Pokedex.jsx";
+import CarteX from "./Component/CarteX.jsx";
 
 const MonComposant = () => {
   return (
@@ -12,6 +13,7 @@ const MonComposant = () => {
       <div className="timeline">
         <Quizzeo />
         <Pokedex />
+        <CarteX />
       </div>
     </div>
   );
