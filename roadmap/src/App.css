@@ -7,6 +7,26 @@
 
 .title{
   margin: 40vh 0;
+  /* color: red; */
+  animation: colorRotate 5s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
 }
 
 .timeline{
@@ -61,7 +81,7 @@
   0% {
     transform: scaley(0);
   }
-  40% {
+  32% {
     transform: scaleY(1);
   }
 
@@ -100,11 +120,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .recVertical1{
   width: 1.3vw;
   height: 70vh;
   background-color: rgb(255, 153, 0);
+
 }
 .projet1 {
   display: flex;
