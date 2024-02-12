@@ -175,6 +175,12 @@
   margin-left: 22.45vw;
 }
 
+.txt1 {
+  width: 20vw;
+  height: 50vh;
+  /* border: 1px solid; */
+}
+
 .txt {
   width: 20vw;
   height: 50vh;
