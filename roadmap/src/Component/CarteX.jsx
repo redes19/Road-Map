@@ -1,9 +1,10 @@
 import React from 'react'
 
 export default function CarteX() {
+
   return (
     <div className='projet'>
-      <div className='txt'>
+      <div className='txt3'>
         <h1>CarteX</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos ducimus quam eveniet ad accusamus, iure tempora? Molestiae repellat illo quae excepturi, voluptatum quibusdam saepe. Doloremque nulla eligendi similique quos.</p>
       </div>

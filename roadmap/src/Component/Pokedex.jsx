@@ -8,7 +8,7 @@ export default function Pokedex() {
         <div className='recVertical1'></div>
         <div className='circle1'></div>
       </div>
-      <div className='txt'>
+      <div className='txt2'>
         <h1>Pokedex</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos ducimus quam eveniet ad accusamus, iure tempora? Molestiae repellat illo quae excepturi, voluptatum quibusdam saepe. Doloremque nulla eligendi similique quos.</p>
       </div>
