@@ -22,7 +22,6 @@ const MonComposant = () => {
         opacity : 1,
         x:-20,
         duration: 1.5,
-        delay:0.3,
         scrollTrigger: {
           trigger: elem,
           start:"top center",
@@ -43,7 +42,6 @@ const MonComposant = () => {
         opacity : 1,
         x: 50,
         duration: 1.5,
-        delay:0.3,
         scrollTrigger: {
           trigger: elem,
           start:"top center",
