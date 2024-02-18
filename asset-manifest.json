@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Road-Map/static/css/main.4224ca37.css",
+    "main.js": "/Road-Map/static/js/main.c8653c66.js",
+    "static/js/808.649f9e74.chunk.js": "/Road-Map/static/js/808.649f9e74.chunk.js",
+    "index.html": "/Road-Map/index.html",
+    "main.4224ca37.css.map": "/Road-Map/static/css/main.4224ca37.css.map",
+    "main.c8653c66.js.map": "/Road-Map/static/js/main.c8653c66.js.map",
+    "808.649f9e74.chunk.js.map": "/Road-Map/static/js/808.649f9e74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4224ca37.css",
+    "static/js/main.c8653c66.js"
+  ]
+}
